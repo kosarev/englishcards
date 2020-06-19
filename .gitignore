@@ -1,0 +1,4 @@
+build
+dist
+englishcards.egg-info
+*.pyc
