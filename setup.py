@@ -22,7 +22,7 @@ setup(name='englishcards',
       author_email='ivan@kosarev.info',
       url='https://github.com/kosarev/englishcards/',
       packages=['englishcards'],
-      install_requires=[],
+      install_requires=['requests', 'appdirs'],
       entry_points={
           'console_scripts': [
               'englishcards = englishcards:main',
